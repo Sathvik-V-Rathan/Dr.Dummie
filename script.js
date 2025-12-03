@@ -1046,7 +1046,6 @@ function renderCase() {
   });
 
   updateHeader();
-  updateProgress();
 }
 
 function handleAnswer(selectedIndex, selectedBtn) {
@@ -1079,6 +1078,7 @@ function handleAnswer(selectedIndex, selectedBtn) {
 
   explanationEl.textContent = c.explanation;
   scoreChipEl.textContent = `Score: ${score}`;
+  updateProgress();
   nextBtn.disabled = false;
 }
 

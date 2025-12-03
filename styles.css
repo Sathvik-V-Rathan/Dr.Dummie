@@ -78,6 +78,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .app-header {
@@ -300,7 +302,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  height: 100%;
 }
 
 .case-tag {
